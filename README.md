@@ -106,3 +106,11 @@ Reinforcement learning for optimal packing strategies
 Use the screenshots to see how to strucuture the file in the computer 
 Any queries i can guide just send me a mail cheerfulpawan@gmail.com 
 
+truck-calculator/
+├── app.py                  # Main Streamlit app
+├── utils/                  # Core modules
+│   ├── calculations.py     # SKU & truck logic
+│   ├── database.py         # MongoDB interface
+│   ├── optimization.py     # Efficiency suggestions
+│   └── visualizations.py   # Graph generation
+└── .streamlit/config.toml  # Streamlit config
